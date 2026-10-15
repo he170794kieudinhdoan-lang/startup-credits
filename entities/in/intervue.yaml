@@ -1,6 +1,6 @@
 schema_version: sourcey.entity-authoring/v1alpha1
 entity:
-  entity_id: ent_06gkzeryssghw8dc4g22knt84
+  entity_id: ent_01m4zxa7qnw1vyk2rr4ra8zrdz
   slug: intervue
   slug_aliases: []
   name: Intervue
@@ -18,7 +18,7 @@ sources:
   - source_id: src_54857a5f4df29b08698d65408b919f3ee509f76783817393c706e1e2e39feff0
     url: https://www.intervue.io/startups
 programs:
-  - program_id: prg_06gkzeryst88hwn5bhp7s882f
+  - program_id: prg_01m4zxa7qqpyxsdhrpx8paf0xn
     program_slug: intervue-startup-program
     program_slug_aliases: []
     title: Intervue Startup Program
@@ -26,8 +26,8 @@ programs:
     source_ids:
       - src_54857a5f4df29b08698d65408b919f3ee509f76783817393c706e1e2e39feff0
 offers:
-  - offer_id: off_06gkzerysv5q5gs6gj1zj267q
-    program_id: prg_06gkzeryst88hwn5bhp7s882f
+  - offer_id: off_01m4zxa7qrjrbdh9grc990th9f
+    program_id: prg_01m4zxa7qqpyxsdhrpx8paf0xn
     offer_slug: 5000-startup-credits-six-months
     offer_slug_aliases: []
     title: $5,000 in Intervue credits for startups, valid 6 months
@@ -39,7 +39,6 @@ offers:
       benefits:
         - benefit_id: ben_01
           kind: credit
-          applies_to: any Intervue plan
           description: $5,000 in credits usable toward any Intervue plan, valid for six months.
           value:
             amount:
@@ -54,7 +53,6 @@ offers:
           description: Access to all enterprise-level features regardless of the plan chosen.
       consideration:
         kind: none
-        description: The program page describes a signup process with no stated fee or purchase requirement.
     eligibility:
       rule:
         criterion_id: cri_01
@@ -62,8 +60,8 @@ offers:
         reason: not-machine-evaluable
         statement: The applicant is an eligible startup as determined by Intervue.
     roles:
-      terms_authority_entity_id: ent_06gkzeryssghw8dc4g22knt84
-      access_operator_entity_id: ent_06gkzeryssghw8dc4g22knt84
+      terms_authority_entity_id: ent_01m4zxa7qnw1vyk2rr4ra8zrdz
+      access_operator_entity_id: ent_01m4zxa7qnw1vyk2rr4ra8zrdz
     access:
       availability: public
       method: form
